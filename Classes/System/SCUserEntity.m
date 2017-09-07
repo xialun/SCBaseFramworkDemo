@@ -9,7 +9,9 @@
 #import "SCUserEntity.h"
 #import <UIKit/UIKit.h>
 #import <LocalAuthentication/LocalAuthentication.h>
-#import "SCBaseObserveDefine.h"
+
+#define isValid(object)     (object && ![object isEqual:[NSNull null]])
+
 static SCUserEntity *userEntity = nil;
 
 @implementation SCUserEntity

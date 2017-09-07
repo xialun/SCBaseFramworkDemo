@@ -8,7 +8,7 @@
 
 #ifndef SCBaseObserveDefine_h
 #define SCBaseObserveDefine_h
-
+#import <Foundation/Foundation.h>
 
 #ifdef DEBUG
 #   define DLog(format, ...) NSLog((@"%s [Line %d]:\n %s = " format), __PRETTY_FUNCTION__, __LINE__, #__VA_ARGS__, ##__VA_ARGS__);
